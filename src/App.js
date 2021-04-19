@@ -35,7 +35,7 @@ function App() {
   };
 
   return (
-    <div className='App'>
+    <div className='App bg-light'>
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
     </div>
